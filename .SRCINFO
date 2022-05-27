@@ -1,0 +1,20 @@
+pkgbase = openindy-git
+	pkgdesc = An Open source software solution for industrial measurement
+	pkgver = 22.1.r25.gb22f4047
+	pkgrel = 1
+	url = https://openindy.github.io/
+	arch = i686
+	arch = x86_64
+	groups = 
+	license = LGPL3
+	makedepends = make
+	makedepends = gcc
+	makedepends = qt5-base
+	depends = suitesparse
+	optdepends = 
+	provides = openindy
+	conflicts = openindy
+	source = openindy::git+https://github.com/OpenIndy/OpenIndy.git#branch=master
+	md5sums = SKIP
+
+pkgname = openindy-git
